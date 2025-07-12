@@ -218,45 +218,6 @@ npm start
 - Content references
 - Read status
 
-## 🔧 Development
-
-### Project Structure
-
-```
-StackIt--A-Minimal-QA-Forum-Platform/
-├── config/
-│   └── database.js          # Database configuration
-├── middleware/
-│   ├── auth.js              # Authentication middleware
-│   └── errorHandler.js      # Error handling middleware
-├── models/
-│   ├── User.js              # User model
-│   ├── Question.js          # Question model
-│   ├── Answer.js            # Answer model
-│   └── Notification.js      # Notification model
-├── routes/
-│   ├── auth.js              # Authentication routes
-│   ├── users.js             # User management routes
-│   ├── questions.js         # Question routes
-│   ├── answers.js           # Answer routes
-│   ├── tags.js              # Tag routes
-│   └── notifications.js     # Notification routes
-├── SRC/
-│   └── Pages/
-│       ├── landingPage.jsx  # Landing page component
-│       └── landingPage.css  # Landing page styles
-├── server.js                # Main server file
-├── package.json             # Dependencies and scripts
-└── config.env              # Environment variables
-```
-
-### Available Scripts
-
-- `npm start` - Start production server
-- `npm run dev` - Start development server with nodemon
-- `npm run client` - Start React development server
-- `npm run dev:full` - Start both backend and frontend
-
 ## 🔒 Security Features
 
 - **JWT Authentication** - Secure token-based authentication
@@ -267,27 +228,6 @@ StackIt--A-Minimal-QA-Forum-Platform/
 - **Helmet** - Security headers middleware
 - **Environment Variables** - Secure configuration management
 
-## 🚀 Deployment
-
-### Environment Variables for Production
-
-```env
-NODE_ENV=production
-MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/stackit
-JWT_SECRET=your-production-jwt-secret
-CLIENT_URL=https://yourdomain.com
-```
-
-### Build for Production
-
-```bash
-# Install dependencies
-npm install --production
-
-# Start the server
-npm start
-```
-
 ## 🤝 Contributing
 
 1. Fork the repository
@@ -295,18 +235,6 @@ npm start
 3. Commit your changes (`git commit -m 'Add some amazing feature'`)
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🆘 Support
-
-If you encounter any issues or have questions:
-
-1. Check the [Issues](https://github.com/your-repo/issues) page
-2. Create a new issue with detailed information
-3. Contact the development team
 
 ## 🎯 Roadmap
 
